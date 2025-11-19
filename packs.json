@@ -649,7 +649,7 @@
   },
   {
     "code": "vp",
-    "cycle_code": "vantage_point",
+    "cycle_code": "vantage-point",
     "date_release": "2026-??-??",
     "ffg_id": null,
     "name": "Vantage Point",
