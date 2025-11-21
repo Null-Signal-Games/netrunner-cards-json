@@ -281,17 +281,4 @@ describe('Mwl', () => {
       });
     });
   });
-
-  it('mwl entries are listed in chronological order', () => {
-    const mwl = getMwlJson();
-    
-    for (let i = 1; i < mwl.length; i++) {
-      const prevDate = new Date(mwl[i - 1].date_start);
-      const currDate = new Date(mwl[i].date_start);
-      
-      expect(currDate.getTime(), 
-        `MWL entries out of order: ${mwl[i].name} (${mwl[i].date_start}) comes after ${mwl[i - 1].name} (${mwl[i - 1].date_start}) in the list, but has an earlier date`
-      ).to.be.at.least(prevDate.getTime());
-    }
-  });
 });

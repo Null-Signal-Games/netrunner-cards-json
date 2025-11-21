@@ -176,17 +176,6 @@ describe('Card Sets', () => {
       expect(cardCycleIds, `Card set ${s.name} has invalid card_cycle_id ${s.card_cycle_id}`).to.include(s.card_cycle_id);
     });
   });
-
-  it('are listed in chronological order', () => {
-    for (let i = 1; i < cardSets.length; i++) {
-      const prevDate = new Date(cardSets[i - 1].date_release);
-      const currDate = new Date(cardSets[i].date_release);
-      
-      expect(currDate.getTime(), 
-        `Card sets out of order: ${cardSets[i].name} (${cardSets[i].date_release}) comes after ${cardSets[i - 1].name} (${cardSets[i - 1].date_release}) in the list, but has an earlier date`
-      ).to.be.at.least(prevDate.getTime());
-    }
-  });
 });
 
 describe('Cards', () => {

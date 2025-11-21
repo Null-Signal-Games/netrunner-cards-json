@@ -1,16 +1,5 @@
 [
   {
-    "card_cycle_id": "core_set",
-    "card_set_type_id": "core",
-    "date_release": "2012-09-06",
-    "id": "core_set",
-    "legacy_code": "core",
-    "name": "Core Set",
-    "position": 1,
-    "released_by": "fantasy_flight_games",
-    "size": 113
-  },
-  {
     "card_cycle_id": "draft",
     "card_set_type_id": "draft",
     "date_release": "2012-09-07",
@@ -20,6 +9,17 @@
     "position": 1,
     "released_by": "fantasy_flight_games",
     "size": 1
+  },
+  {
+    "card_cycle_id": "core_set",
+    "card_set_type_id": "core",
+    "date_release": "2012-09-06",
+    "id": "core_set",
+    "legacy_code": "core",
+    "name": "Core Set",
+    "position": 1,
+    "released_by": "fantasy_flight_games",
+    "size": 113
   },
   {
     "card_cycle_id": "genesis",

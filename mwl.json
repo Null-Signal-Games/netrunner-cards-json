@@ -1491,14 +1491,14 @@
       "33111": { "deck_limit": 0 }
     },
     "code": "sunset-ban-list-24-01",
-    "date_start": "2023-12-31",
+    "date_start": "2023-09-21",
     "name": "Sunset Ban List 24.01",
     "subtypes": { "current": { "deck_limit": 0 } }
   },
   {
     "cards": { "33025": { "deck_limit": 0 }, "33051": { "deck_limit": 0 } },
     "code": "startup-ban-list-24-01-for-classic-only",
-    "date_start": "2024-01-19",
+    "date_start": "2023-09-21",
     "name": "Startup Ban List 24.01 (ignore active date)",
     "subtypes": { "current": { "deck_limit": 0 } }
   },
@@ -1719,7 +1719,7 @@
       "34111": { "deck_limit": 0 }
     },
     "code": "startup-ban-list-24-09-for-classic-only",
-    "date_start": "2024-09-20",
+    "date_start": "2024-09-01",
     "name": "Startup Ban List 24.09 (ignore active date)",
     "subtypes": { "current": { "deck_limit": 0 } }
   },
