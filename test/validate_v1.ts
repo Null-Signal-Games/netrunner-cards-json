@@ -236,4 +236,49 @@ describe('Mwl', () => {
     const mwl = getMwlJson();
     expect(mwl).to.exist;
   });
+
+  it('mwl entries include all printings of a card', () => {
+    const mwl = getMwlJson();
+    const cards = getCardsJson();
+    
+    // Build a map of card titles to all their card codes (printings)
+    const titleToPrintings = new Map<string, Set<string>>();
+    cards.forEach(card => {
+      if (!titleToPrintings.has(card.title)) {
+        titleToPrintings.set(card.title, new Set<string>());
+      }
+      titleToPrintings.get(card.title)!.add(card.code);
+    });
+
+    // Check each MWL list
+    mwl.forEach(mwlList => {
+      const mwlCardCodes = Object.keys(mwlList.cards);
+      
+      // Build a map of titles to card codes that appear in this MWL
+      const titlesInMwl = new Map<string, Set<string>>();
+      mwlCardCodes.forEach(code => {
+        const card = cards.find(c => c.code === code);
+        if (card) {
+          if (!titlesInMwl.has(card.title)) {
+            titlesInMwl.set(card.title, new Set<string>());
+          }
+          titlesInMwl.get(card.title)!.add(code);
+        }
+      });
+
+      // For each title in the MWL, verify all printings are included
+      titlesInMwl.forEach((codesInMwl, title) => {
+        const allPrintings = titleToPrintings.get(title);
+        if (allPrintings && allPrintings.size > 1) {
+          const missingPrintings = Array.from(allPrintings).filter(code => !codesInMwl.has(code));
+          if (missingPrintings.length > 0) {
+            expect.fail(
+              `MWL ${mwlList.name}: Card "${title}" is missing printings: ${missingPrintings.join(', ')}. ` +
+              `Has: ${Array.from(codesInMwl).join(', ')}, Expected all: ${Array.from(allPrintings).join(', ')}`
+            );
+          }
+        }
+      });
+    });
+  });
 });
