@@ -106,6 +106,18 @@ describe('Cycles', () => {
   it('card_cycles.json passes schema validation', () => {
     validateAgainstSchema('card_cycles_schema.json', cardCycles);
   });
+
+  it('have unique position values', () => {
+    const positionToCycle = new Map<number, string>();
+    cardCycles.forEach(cycle => {
+      if (positionToCycle.has(cycle.position)) {
+        expect.fail(
+          `Card cycle ${cycle.name} has duplicate position ${cycle.position}, already used by ${positionToCycle.get(cycle.position)}`
+        );
+      }
+      positionToCycle.set(cycle.position, cycle.name);
+    });
+  });
 });
 
 describe('SetTypes', () => {
