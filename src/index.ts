@@ -28,13 +28,13 @@ function makeV2Reader(filename: string) {
 export function textToId(text: string): string {
   return text
     .toLowerCase()
+    // Remove ASCII apostrophes and various single quotes (‘’‛‹›❛❜＇「」).
+    .replace(/[\u0027\u2018\u2019\u201B\u2039\u203A\u275B\u275C\uFF07\u300C\u300D]/gu, '')
     // Unicode Canonical Decomposition - switching single code points to multiple code points.
     .normalize('NFD')
-    // remove non-ASCII
+    // remove non-ASCII (this phase will change things like “é” to “e” and remove the accent).
     .replace(/\P{ASCII}/gu, '')
-    // replace '\w followed by a space or end-of-line with \w and the space/end match.
-    .replace(/'(\w)(\s|$)/gu, '$1$2')
-    // split along space or punction.
+    // split along space or punction. This will catch any double-quotes, dashes, etc.
     .split(/[\s\p{P}]+/u)
     // exclude any elements that are empty when trimmed to avoid trailing _ for the join.
     .filter(x => x.trim() != '')

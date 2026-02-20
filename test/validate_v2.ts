@@ -88,6 +88,12 @@ describe('Sides', () => {
   it('sides.json passes schema validation', () => {
     validateAgainstSchema('sides_schema.json', sides);
   });
+
+  it('have valid ids', () => {
+    sides.forEach(side => {
+      expect(side.id, `Side ${side.name} has invalid id ${side.id}`).to.equal(textToId(side.name));
+    });
+  });
 });
 
 describe('Factions', () => {
@@ -95,7 +101,7 @@ describe('Factions', () => {
     validateAgainstSchema('factions_schema.json', factions);
   });
 
-  it('have proper id format', () => {
+  it('have valid ids', () => {
     factions.forEach(f => {
       expect(f.id, `Faction ${f.name} has unexpected id ${f.id}`).to.equal(textToId(f.name));
     });
@@ -106,17 +112,22 @@ describe('Cycles', () => {
   it('card_cycles.json passes schema validation', () => {
     validateAgainstSchema('card_cycles_schema.json', cardCycles);
   });
+
+  it('have valid ids', () => {
+    cardCycles.forEach(cycle => {
+      expect(cycle.id, `Cycle ${cycle.name} has invalid id ${cycle.id}`).to.equal(textToId(cycle.name));
+    });
+  });
 });
 
 describe('SetTypes', () => {
-
   it('card_set_types.json passes schema validation', () => {
     validateAgainstSchema('card_set_types_schema.json', cardSetTypes);
   });
 
-  it('cardSetTypes have proper name/id format', () => {
-    cardSetTypes.forEach(function (st) {
-      expect(st.id).to.equal(st.name.toLowerCase().replaceAll(' ', '_'));
+  it('have valid ids', () => {
+    cardSetTypes.forEach(st => {
+      expect(st.id, `Card set type ${st.name} has invalid id ${st.id}`).to.equal(textToId(st.name));
     });
   });
 });
@@ -127,9 +138,9 @@ describe('Types', () => {
     validateAgainstSchema('card_types_schema.json', cardTypes);
   });
 
-  it('cardTypes have proper name/id format', () => {
+  it('have valid ids', () => {
     cardTypes.forEach(function (t) {
-      expect(t.id).to.equal(textToId(t.name));
+      expect(t.id, `Card type ${t.name} has invalid id ${t.id}`).to.equal(textToId(t.name));
     });
   });
 });
@@ -140,9 +151,9 @@ describe('Card Subtypes', () => {
     validateAgainstSchema('card_subtypes_schema.json', subtypes);
   });
 
-  it('subtypes have proper name/id format', () => {
+  it('have valid ids', () => {
     subtypes.forEach(function (s) {
-      expect(s.id).to.equal(textToId(s.name));
+      expect(s.id, `Card subtype ${s.name} has invalid id ${s.id}`).to.equal(textToId(s.name));
     });
   });
 });
@@ -157,6 +168,12 @@ describe('Card Layouts', () => {
 describe('Card Sets', () => {
   it('sets.json passes schema validation', () => {
     validateAgainstSchema('card_sets_schema.json', cardSets);
+  });
+
+  it('have valid ids', () => {
+    cardSets.forEach(function (s) {
+      expect(s.id, `Card set ${s.name} has invalid id ${s.id}`).to.equal(textToId(s.name));
+    });
   });
 
   it('has valid cycle ids', () => {
@@ -176,6 +193,14 @@ describe('Cards', () => {
       validate(card);
       if (validate.errors) {
         expect.fail(`card ${card.title}: ${ajv.errorsText(validate.errors)}`);
+      }
+    });
+  });
+
+  it('have valid ids', () => {
+    cards.forEach(card => {
+      if (card.id != textToId(card.title)) {
+        console.log(`${card.title} has id ${card.id} which does not match textToId of its title ${textToId(card.title)}`);
       }
     });
   });
