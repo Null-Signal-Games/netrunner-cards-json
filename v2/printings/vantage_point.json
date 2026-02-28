@@ -1,5 +1,15 @@
 [
   {
+    "card_id": "chain_reaction",
+    "card_set_id": "vantage_point",
+    "flavor": "One stone is a small price to pay for two birds.",
+    "id": "36001",
+    "illustrator": "Matheus Calza",
+    "position": 1,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "corsair",
     "card_set_id": "vantage_point",
     "flavor": "There have been many golden ages of piracy, each occurring on stranger and stormier waters.",
@@ -16,6 +26,16 @@
     "id": "36005",
     "illustrator": "Júlio Rocha",
     "position": 5,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "hackerspace",
+    "card_set_id": "vantage_point",
+    "flavor": "“That’s S4lamander, Maestro, iggy two-fingers, C-Sweet, Johnny N., Tina ‘Kickflips’. And of course, Sir Hacksalot.”",
+    "id": "36006",
+    "illustrator": "Emilio Rodríguez",
+    "position": 6,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -197,6 +217,16 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "retirement_plan",
+    "card_set_id": "vantage_point",
+    "flavor": "Your terms of service have been extended.",
+    "id": "36034",
+    "illustrator": "Mauricio Herrera",
+    "position": 34,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "melies_u_only_the_brightest",
     "card_set_id": "vantage_point",
     "faces": [
@@ -246,6 +276,16 @@
     "id": "36042",
     "illustrator": "Júlio Rocha",
     "position": 42,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "unleash",
+    "card_set_id": "vantage_point",
+    "flavor": "“Found you.”",
+    "id": "36044",
+    "illustrator": "Cat Shen",
+    "position": 44,
     "quantity": 3,
     "released_by": "null_signal_games"
   },

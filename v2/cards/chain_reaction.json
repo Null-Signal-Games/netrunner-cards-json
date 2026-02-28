@@ -1,0 +1,15 @@
+{
+  "card_type_id": "event",
+  "cost": 1,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "anarch",
+  "id": "chain_reaction",
+  "influence_cost": 5,
+  "is_unique": false,
+  "side_id": "runner",
+  "stripped_text": "Play only if you made a successful run on HQ, R&D, and Archives this turn. Trash 2 installed Corp cards. The Corp trashes 1 installed Runner card.",
+  "stripped_title": "Chain Reaction",
+  "text": "Play only if you made a successful run on HQ, R&D, and Archives this turn.\nTrash 2 installed Corp cards. The Corp trashes 1 installed Runner card.",
+  "title": "Chain Reaction"
+}
