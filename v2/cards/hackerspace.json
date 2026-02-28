@@ -1,0 +1,16 @@
+{
+  "card_type_id": "resource",
+  "cost": 2,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "anarch",
+  "id": "hackerspace",
+  "influence_cost": 1,
+  "is_unique": true,
+  "side_id": "runner",
+  "stripped_text": "You can install unique () companion resources and unique () connection resources onto this resource. Each resource installed this way costs 1 credit less to install. While this resource has a hosted companion and a hosted connection, you get +2 maximum hand size.",
+  "stripped_title": "Hackerspace",
+  "subtypes": ["location"],
+  "text": "You can install unique <em>({unique})</em> <strong>companion</strong> resources and unique <em>({unique})</em> <strong>connection</strong> resources onto this resource. Each resource installed this way costs 1[credit] less to install.\nWhile this resource has a hosted <strong>companion</strong> and a hosted <strong>connection</strong>, you get +2 maximum hand size.",
+  "title": "Hackerspace"
+}
