@@ -1,0 +1,16 @@
+{
+  "card_type_id": "operation",
+  "cost": 0,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "haas_bioroid",
+  "id": "realloc",
+  "influence_cost": 2,
+  "is_unique": false,
+  "side_id": "corp",
+  "stripped_text": "As an additional cost to play this operation, spend click. Choose 2 rezzed pieces of ice. For each chosen piece of ice, gain credits equal to its printed rez cost, then derez it.",
+  "stripped_title": "realloc()",
+  "subtypes": ["double"],
+  "text": "As an additional cost to play this operation, spend [click].\nChoose 2 rezzed pieces of ice. For each chosen piece of ice, gain credits equal to its printed rez cost, then derez it.",
+  "title": "realloc()"
+}

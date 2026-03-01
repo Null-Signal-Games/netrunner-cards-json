@@ -1,0 +1,15 @@
+{
+  "card_type_id": "hardware",
+  "cost": 3,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "anarch",
+  "id": "the_tungsten_tailor",
+  "influence_cost": 3,
+  "is_unique": true,
+  "side_id": "runner",
+  "stripped_text": "Each piece of ice gets -1 strength. The first time each turn you break a subroutine on a piece of ice with 0 or less strength, gain 1 credit.",
+  "stripped_title": "The Tungsten Tailor",
+  "text": "Each piece of ice gets −1 strength.\nThe first time each turn you break a subroutine on a piece of ice with 0 or less strength, gain 1[credit].",
+  "title": "The Tungsten Tailor"
+}

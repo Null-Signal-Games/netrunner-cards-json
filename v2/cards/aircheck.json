@@ -1,0 +1,16 @@
+{
+  "card_type_id": "event",
+  "cost": 1,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "shaper",
+  "id": "aircheck",
+  "influence_cost": 2,
+  "is_unique": false,
+  "side_id": "runner",
+  "stripped_text": "Place 4 credits on this event. While this event is active, you can spend hosted credits, and you cannot lose or spend credits from your credit pool. Run HQ or R&D. When that run ends, if it was successful, you may run a remote server.",
+  "stripped_title": "Aircheck",
+  "subtypes": ["run", "stealth"],
+  "text": "Place 4[credit] on this event. While this event is active, you can spend hosted credits, and you cannot lose or spend credits from your credit pool.\nRun HQ or R&D.\nWhen that run ends, if it was successful, you may run a remote server.",
+  "title": "Aircheck"
+}

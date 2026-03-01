@@ -1,0 +1,15 @@
+{
+  "card_type_id": "event",
+  "cost": 1,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "criminal",
+  "id": "sell_out",
+  "influence_cost": 1,
+  "is_unique": false,
+  "side_id": "runner",
+  "stripped_text": "As an additional cost to play this event, trash 1 installed resource. Gain 4 credits and draw 2 cards.",
+  "stripped_title": "Sell Out",
+  "text": "As an additional cost to play this event, trash 1 installed resource.\nGain 4[credit] and draw 2 cards.",
+  "title": "Sell Out"
+}

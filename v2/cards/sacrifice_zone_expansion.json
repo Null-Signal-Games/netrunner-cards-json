@@ -1,0 +1,16 @@
+{
+  "advancement_requirement": 4,
+  "agenda_points": 2,
+  "card_type_id": "agenda",
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "weyland_consortium",
+  "id": "sacrifice_zone_expansion",
+  "is_unique": false,
+  "side_id": "corp",
+  "stripped_text": "Install only faceup. (This agenda is neither rezzed nor unrezzed.) The first time each turn you advance this agenda, gain 3 credits. Once per turn -> When the Runner makes a successful run on another server, you may remove 1 hosted advancement counter to do 1 meat damage.",
+  "stripped_title": "Sacrifice Zone Expansion",
+  "subtypes": ["public", "expansion"],
+  "text": "Install only faceup. <em>(This agenda is neither rezzed nor unrezzed.)</em>\nThe first time each turn you advance this agenda, gain 3[credit].\nOnce per turn → When the Runner makes a successful run on another server, you may remove 1 hosted advancement counter to do 1 meat damage.",
+  "title": "Sacrifice Zone Expansion"
+}

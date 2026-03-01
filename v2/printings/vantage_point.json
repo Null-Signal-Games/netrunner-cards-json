@@ -10,6 +10,26 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "take_a_dive",
+    "card_set_id": "vantage_point",
+    "flavor": "“The walking flatlined will never know the difference between a cyberwall and a Saisentan. Use that fact!”\n—Cracking Corps for Fun and Profit",
+    "id": "36002",
+    "illustrator": "Amirul Hhf",
+    "position": 2,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "the_tungsten_tailor",
+    "card_set_id": "vantage_point",
+    "flavor": "“I don’t know if the Net is made of atoms or bits or something else altogether. I do know this baby’s sharp enough to poke a hole in whatever the answer is.”\n—Pumpkin-and-Dumplin",
+    "id": "36003",
+    "illustrator": "Si F Sweetman",
+    "position": 3,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "corsair",
     "card_set_id": "vantage_point",
     "flavor": "There have been many golden ages of piracy, each occurring on stranger and stormier waters.",
@@ -40,6 +60,16 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "nurse_hanh",
+    "card_set_id": "vantage_point",
+    "flavor": "“I’ll just need your arm for a few moments.”",
+    "id": "36007",
+    "illustrator": "Alecia Doyley",
+    "position": 7,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "stick_and_poke",
     "card_set_id": "vantage_point",
     "flavor": "In the Net, it takes a special effort <em>not</em> to sanitize your equipment. But they manage anyway.",
@@ -66,6 +96,16 @@
     "id": "36010",
     "illustrator": "Scott Uminga",
     "position": 10,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "sell_out",
+    "card_set_id": "vantage_point",
+    "flavor": "“We’re cooked, maninha. Somebody tipped them off.”",
+    "id": "36011",
+    "illustrator": "Alecia Doyley",
+    "position": 11,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -129,6 +169,15 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "aircheck",
+    "card_set_id": "vantage_point",
+    "id": "36018",
+    "illustrator": "Mia Siergiejew",
+    "position": 18,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "beta_build",
     "card_set_id": "vantage_point",
     "flavor": "“I donʼt need a forever answer, I need a <em>now</em> answer.”",
@@ -168,12 +217,31 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "sipa",
+    "card_set_id": "vantage_point",
+    "flavor": "Can’t let it touch the ground.",
+    "id": "36023",
+    "illustrator": "Ferenc Patkós",
+    "position": 23,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "stowaway",
     "card_set_id": "vantage_point",
     "flavor": "Not only does life exist in the Net, it adapts to our presence and thrives.",
     "id": "36024",
     "illustrator": "Elwin \"Jakuza\" Rumplmair",
     "position": 24,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "word_on_the_street",
+    "card_set_id": "vantage_point",
+    "id": "36025",
+    "illustrator": "Marlon Ruiz",
+    "position": 25,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -207,6 +275,26 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "reverb",
+    "card_set_id": "vantage_point",
+    "flavor": "Everything in the Net is ultimately just information—light, sound, runners. If you can reflect any, you can reflect all.",
+    "id": "36029",
+    "illustrator": "Elwin \"Jakuza\" Rumplmair",
+    "position": 29,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "sleipnir",
+    "card_set_id": "vantage_point",
+    "flavor": "He bade write runes on the shield before the shining goddess,\non Sleipnir’s teeth, and the straps of the sledge.",
+    "id": "36030",
+    "illustrator": "Adam S. Doyle",
+    "position": 30,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "vertigo",
     "card_set_id": "vantage_point",
     "flavor": "It was only a moment for you; you took no notice.",
@@ -217,12 +305,41 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "caveat_emptor",
+    "card_set_id": "vantage_point",
+    "flavor": "“I can tell you’re a discerning customer. That’s why you’re here, after all.”",
+    "id": "36032",
+    "illustrator": "Mauricio Herrera",
+    "position": 32,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "realloc",
+    "card_set_id": "vantage_point",
+    "flavor": "All service will be indefinitely suspended by 11:59 pm tonight. We apologize for any inconvenience.",
+    "id": "36033",
+    "illustrator": "Mia Siergiejew",
+    "position": 33,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "retirement_plan",
     "card_set_id": "vantage_point",
     "flavor": "Your terms of service have been extended.",
     "id": "36034",
     "illustrator": "Mauricio Herrera",
     "position": 34,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "perfect_recall",
+    "card_set_id": "vantage_point",
+    "id": "36035",
+    "illustrator": "Oliver Morit",
+    "position": 35,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -238,6 +355,16 @@
     "illustrator": "Kira L. Nguyen",
     "position": 36,
     "quantity": 1,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "lotus_haze",
+    "card_set_id": "vantage_point",
+    "flavor": "“Warn you? Useless. Once they make the biofeedback stick, all you see is what they want you to see.”\n—Witch_Of_The_Woods",
+    "id": "36037",
+    "illustrator": "Anna Butova",
+    "position": 37,
+    "quantity": 3,
     "released_by": "null_signal_games"
   },
   {
@@ -270,12 +397,32 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "lionsmane",
+    "card_set_id": "vantage_point",
+    "flavor": "”Step closer,” you dream you hear. “Feel my embrace.”",
+    "id": "36041",
+    "illustrator": "Liiga Smilshkalne",
+    "position": 41,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "vicsek",
     "card_set_id": "vantage_point",
     "flavor": "BZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
     "id": "36042",
     "illustrator": "Júlio Rocha",
     "position": 42,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "cultivate",
+    "card_set_id": "vantage_point",
+    "flavor": "To nurture perfection is to know when, what, and whom to cut.",
+    "id": "36043",
+    "illustrator": "Matheus Calza",
+    "position": 43,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -350,6 +497,16 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "lethe",
+    "card_set_id": "vantage_point",
+    "flavor": "Drink deeply and forget.",
+    "id": "36051",
+    "illustrator": "Qistina Khalidah",
+    "position": 51,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "paywall",
     "card_set_id": "vantage_point",
     "flavor": "“Yeah, I previously worked at a Weyland shop, but the boss had it out for me. Creative differences.”\n—Isolde Muraro, ice architect",
@@ -370,12 +527,41 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "scapegoat",
+    "card_set_id": "vantage_point",
+    "flavor": "She’d play the part of the dangerous criminal for now; that was the deal. She was too useful to put away for good. Even Lunar Customs could use a smuggler of her skills now and then.",
+    "id": "36054",
+    "illustrator": "Olie Boldador",
+    "position": 54,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "hype_machine",
     "card_set_id": "vantage_point",
     "flavor": "Every season is preview season.",
     "id": "36055",
     "illustrator": "Matheus Calza",
     "position": 55,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "sacrifice_zone_expansion",
+    "card_set_id": "vantage_point",
+    "id": "36056",
+    "illustrator": "Si F Sweetman",
+    "position": 56,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "luana_campos",
+    "card_set_id": "vantage_point",
+    "flavor": "“May our new headquarters live twice as long as the noble kapok tree that stood where I now stand!”",
+    "id": "36057",
+    "illustrator": "Dimik",
+    "position": 57,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -400,12 +586,32 @@
     "released_by": "null_signal_games"
   },
   {
+    "card_id": "tocsin",
+    "card_set_id": "vantage_point",
+    "flavor": "No one can hear the clamor of the bells and not be alarmed. Least of all the intruder.",
+    "id": "36060",
+    "illustrator": "Scott Uminga",
+    "position": 60,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
     "card_id": "myoshu",
     "card_set_id": "vantage_point",
     "flavor": "There is no victory which is not also beauty.",
     "id": "36061",
     "illustrator": "Adam S. Doyle",
     "position": 61,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "reanimation_protocol",
+    "card_set_id": "vantage_point",
+    "flavor": "The only blasphemy is to wallow in deletion.",
+    "id": "36062",
+    "illustrator": "Ferenc Patkós",
+    "position": 62,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
@@ -426,6 +632,16 @@
     "id": "36064",
     "illustrator": "Dimik",
     "position": 64,
+    "quantity": 3,
+    "released_by": "null_signal_games"
+  },
+  {
+    "card_id": "shackleton_grid",
+    "card_set_id": "vantage_point",
+    "flavor": "You’re on your own.",
+    "id": "36065",
+    "illustrator": "Emilio Rodríguez",
+    "position": 65,
     "quantity": 3,
     "released_by": "null_signal_games"
   },
