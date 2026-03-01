@@ -31,6 +31,7 @@
   "is_unique": false,
   "layout_id": "facade",
   "minimum_deck_size": 45,
+  "narrative_text": "Luna bears the scars of its past, and Méliès City was one among many. But this old grave became a megacorp opportunity: Jinteki credits rebuilt Méliès’s cracked domes, turning the ruins into the fastest-growing settlement on Lunar soil, and the perfect host to its new academic venture.\nIt’s not just a matter of shaping new graduates into Jinteki hires, or the achievement of building the largest biosupport surface dome on Luna. It also allows reclaiming underground spaces for live clone research, keeping it carefully hidden from regulators and ethics boards alike.",
   "side_id": "corp",
   "stripped_text": "When your discard phase ends, secretly set your identity to any copy of Melies U: Only the Brightest. When the Runner makes a successful run on a central server, flip this identity. When the Runner's action phase ends, gain 1 credit.",
   "stripped_title": "Melies U: Only the Brightest",

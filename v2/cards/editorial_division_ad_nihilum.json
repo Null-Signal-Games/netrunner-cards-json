@@ -7,6 +7,7 @@
   "influence_limit": 15,
   "is_unique": false,
   "minimum_deck_size": 45,
+  "narrative_text": "From the surface of Luna, an inverted pyramid casts a shadow over the solar system and the Net. Within its umbra, information and people are occluded with surgical precision, leaving behind no traceable gaps in the timeline, only a lingering feeling that something is missing.\nThis is NBN’s Editorial Division. Its agents, remote, efficient, and meticulous, end lives lived on the Net. Their deeds leave no digital evidence. Loose ends in meatspace, however, often require cleanup.",
   "side_id": "corp",
   "stripped_text": "The first time each turn you take bad publicity, you may search R&D for 1 non-agenda black ops, gray ops, or liability card and reveal it. (Shuffle R&D after searching it.) Add that card to HQ.",
   "stripped_title": "Editorial Division: Ad Nihilum",
