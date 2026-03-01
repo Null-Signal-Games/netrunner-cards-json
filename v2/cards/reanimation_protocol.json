@@ -1,0 +1,16 @@
+{
+  "card_type_id": "operation",
+  "cost": 2,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "weyland_consortium",
+  "id": "reanimation_protocol",
+  "influence_cost": 3,
+  "is_unique": false,
+  "side_id": "corp",
+  "stripped_text": "Install and rez 1 piece of ice from Archives, paying a total of 10 credits less. If you rezzed a piece of non-liability ice this way, take 1 bad publicity.",
+  "stripped_title": "Reanimation Protocol",
+  "subtypes": ["liability"],
+  "text": "Install and rez 1 piece of ice from Archives, paying a total of 10[credit] less. If you rezzed a piece of non-<strong>liability</strong> ice this way, take 1 bad publicity.",
+  "title": "Reanimation Protocol"
+}

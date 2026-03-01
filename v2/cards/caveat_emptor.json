@@ -1,0 +1,16 @@
+{
+  "card_type_id": "operation",
+  "cost": 5,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "haas_bioroid",
+  "id": "caveat_emptor",
+  "influence_cost": 3,
+  "is_unique": false,
+  "side_id": "corp",
+  "stripped_text": "Resolve 1 of the following: * Gain 6 credits. The Runner gets -1 allotted click for their next turn. * Gain 10 credits. The Runner gets +1 allotted click for their next turn.",
+  "stripped_title": "Caveat Emptor",
+  "subtypes": ["transaction"],
+  "text": "Resolve 1 of the following:\n* Gain 6[credit]. The Runner gets −1 allotted [click] for their next turn.\n* Gain 10[credit]. The Runner gets +1 allotted [click] for their next turn.",
+  "title": "Caveat Emptor"
+}

@@ -1,0 +1,17 @@
+{
+  "card_type_id": "ice",
+  "cost": 8,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "weyland_consortium",
+  "id": "tocsin",
+  "influence_cost": 2,
+  "is_unique": false,
+  "side_id": "corp",
+  "strength": 5,
+  "stripped_text": "click, 1 credit, reveal and trash this ice from HQ: Search R&D for up to 1 barrier and up to 1 sentry and reveal them. (Shuffle R&D after searching it.) Add those cards to HQ. Subroutine The Runner loses 2 credits. Subroutine End the run. Subroutine End the run.",
+  "stripped_title": "Tocsin",
+  "subtypes": ["code_gate", "expendable"],
+  "text": "[click], <strong>1</strong>[credit], <strong>reveal and trash this ice from HQ:</strong> Search R&D for up to 1 <strong>barrier</strong> and up to 1 <strong>sentry</strong> and reveal them. <em>(Shuffle R&D after searching it.)</em> Add those cards to HQ.\n[subroutine] The Runner loses 2[credit].\n[subroutine] End the run.\n[subroutine] End the run.",
+  "title": "Tocsin"
+}

@@ -1,0 +1,17 @@
+{
+  "card_type_id": "ice",
+  "cost": 4,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "haas_bioroid",
+  "id": "reverb",
+  "influence_cost": 1,
+  "is_unique": false,
+  "side_id": "corp",
+  "strength": 2,
+  "stripped_text": "The rez cost of this ice is lowered by 1 credit for each other unrezzed piece of ice. Subroutine End the run. Subroutine End the run.",
+  "stripped_title": "Reverb",
+  "subtypes": ["barrier", "harmonic"],
+  "text": "The rez cost of this ice is lowered by 1[credit] for each other unrezzed piece of ice.\n[subroutine] End the run.\n[subroutine] End the run.",
+  "title": "Reverb"
+}

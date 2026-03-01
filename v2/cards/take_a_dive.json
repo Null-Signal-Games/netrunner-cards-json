@@ -1,0 +1,16 @@
+{
+  "card_type_id": "event",
+  "cost": 2,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "anarch",
+  "id": "take_a_dive",
+  "influence_cost": 4,
+  "is_unique": false,
+  "side_id": "runner",
+  "stripped_text": "Run HQ or R&D. If successful, and if a subroutine resolved during this run, give the Corp 1 bad publicity. Remove this event from the game.",
+  "stripped_title": "Take a Dive",
+  "subtypes": ["run"],
+  "text": "Run HQ or R&D. If successful, and if a subroutine resolved during this run, give the Corp 1 bad publicity.\nRemove this event from the game.",
+  "title": "Take a Dive"
+}

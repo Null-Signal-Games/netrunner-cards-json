@@ -8,7 +8,6 @@
   "influence_limit": 15,
   "is_unique": false,
   "minimum_deck_size": 45,
-  "narrative_text": "Two minutes and thirty-seven seconds after blowing the whistle on a top-secret NBN project, Hiram Svensson’s entire existence had been scrubbed from the Net. His employment history with the corp shredded, bank accounts and social channels disappeared, Hiram turned to forgotten analog technology to evade NBN’s gaze.\nQuietly, patiently, Hiram probes corp servers and broadcasts their secrets via copper wires and radio waves. It’s only a matter of time before his signal is detected again. If he’s lucky, the truth will resonate long after he’s gone.",
   "pronouns": "he/him",
   "side_id": "runner",
   "stripped_text": "Whenever you install or trash a piece of hardware (from any location), look at the top card of R&D.",

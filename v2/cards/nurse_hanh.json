@@ -1,0 +1,16 @@
+{
+  "card_type_id": "resource",
+  "cost": 1,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "anarch",
+  "id": "nurse_hanh",
+  "influence_cost": 1,
+  "is_unique": true,
+  "side_id": "runner",
+  "stripped_text": "Whenever 2 or more facedown cards in Archives are turned faceup, draw 2 cards.",
+  "stripped_title": "Nurse Hanh",
+  "subtypes": ["connection"],
+  "text": "Whenever 2 or more facedown cards in Archives are turned faceup, draw 2 cards.",
+  "title": "Nurse Hạnh"
+}

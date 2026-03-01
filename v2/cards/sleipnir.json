@@ -1,0 +1,17 @@
+{
+  "card_type_id": "ice",
+  "cost": 4,
+  "deck_limit": 3,
+  "designed_by": "null_signal_games",
+  "faction_id": "haas_bioroid",
+  "id": "sleipnir",
+  "influence_cost": 2,
+  "is_unique": false,
+  "side_id": "corp",
+  "strength": 4,
+  "stripped_text": "Subroutine You may draw 1 card. Subroutine You may shuffle 1 card from HQ or Archives into R&D. Subroutine End the run.",
+  "stripped_title": "Sleipnir",
+  "subtypes": ["code_gate"],
+  "text": "[subroutine] You may draw 1 card.\n[subroutine] You may shuffle 1 card from HQ or Archives into R&D.\n[subroutine] End the run.",
+  "title": "Sleipnir"
+}
