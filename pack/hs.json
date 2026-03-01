@@ -353,9 +353,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 0,
-    "stripped_text": "Salvage can be advanced only while rezzed and gains Subroutine Trace[2]. If successful, give the Runner 1 tag. for each advancement token on it.",
+    "stripped_text": "You can advance this ice if it is rezzed. It gains \"Subroutine Trace[2]. If successful, give the Runner 1 tag.\" for each hosted advancement counter.",
     "stripped_title": "Salvage",
-    "text": "Salvage can be advanced only while rezzed and gains “[subroutine] Trace[2]. If successful, give the Runner 1 tag.” for each advancement token on it.",
+    "text": "You can advance this ice if it is rezzed. It gains \"[subroutine] Trace[2]. If successful, give the Runner 1 tag.\" for each hosted advancement counter.",
     "title": "Salvage",
     "type_code": "ice",
     "uniqueness": false

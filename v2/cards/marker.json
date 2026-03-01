@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 3,
-  "stripped_text": "Subroutine The next piece of ice the Runner encounters gains \"Subroutine End the run.\" after all its other subroutines for the remainder of this run.",
+  "stripped_text": "Subroutine The next piece of ice the Runner encounters during this run gains \"Subroutine End the run.\" after its other subroutines for the remainder of that run.",
   "stripped_title": "Marker",
   "subtypes": ["code_gate"],
-  "text": "[subroutine] The next piece of ice the Runner encounters gains \"[subroutine] End the run.\" after all its other subroutines for the remainder of this run.",
+  "text": "[subroutine] The next piece of ice the Runner encounters during this run gains \"[subroutine] End the run.\" after its other subroutines for the remainder of that run.",
   "title": "Marker"
 }

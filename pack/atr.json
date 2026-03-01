@@ -217,9 +217,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 4,
-    "stripped_text": "When the Runner encounters Merlin, you may reveal up to 2 grail ice from HQ. For the remainder of this run, Merlin gains the subroutines of the revealed ice in the order of your choice. Subroutine Do 2 net damage.",
+    "stripped_text": "When the Runner encounters this ice, you may reveal up to 2 pieces of grail ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice. Subroutine Do 2 net damage.",
     "stripped_title": "Merlin",
-    "text": "When the Runner encounters Merlin, you may reveal up to 2 <strong>grail</strong> ice from HQ. For the remainder of this run, Merlin gains the subroutines of the revealed ice in the order of your choice.\n[subroutine] Do 2 net damage.",
+    "text": "When the Runner encounters this ice, you may reveal up to 2 pieces of <strong>grail</strong> ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice.\n[subroutine] Do 2 net damage.",
     "title": "Merlin",
     "type_code": "ice",
     "uniqueness": false

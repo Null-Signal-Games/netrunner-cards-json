@@ -8,8 +8,8 @@
   "influence_cost": 2,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "Play only if you made a successful run on a central server this turn. The Corp must pay 5 credits or take 1 bad publicity. Remove Mining Accident from the game instead of trashing it.",
+  "stripped_text": "Play only if you made a successful run on a central server this turn. Give the Corp 1 bad publicity unless they pay 5 credits. Remove this event from the game.",
   "stripped_title": "Mining Accident",
-  "text": "Play only if you made a successful run on a central server this turn.\nThe Corp must pay 5[credit] or take 1 bad publicity. Remove Mining Accident from the game instead of trashing it.",
+  "text": "Play only if you made a successful run on a central server this turn.\nGive the Corp 1 bad publicity unless they pay 5[credit].\nRemove this event from the game.",
   "title": "Mining Accident"
 }

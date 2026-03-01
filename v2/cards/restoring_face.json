@@ -8,8 +8,8 @@
   "influence_cost": 2,
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "Trash one of your installed sysops, executives, or clones. If you do, remove up to 2 bad publicity.",
+  "stripped_text": "Reveal and trash 1 of your installed sysop, executive, or clone cards. If you do, remove up to 2 bad publicity.",
   "stripped_title": "Restoring Face",
-  "text": "Trash one of your installed <strong>sysops</strong>, <strong>executives</strong>, or <strong>clones</strong>. If you do, remove up to 2 bad publicity.",
+  "text": "Reveal and trash 1 of your installed <strong>sysop</strong>, <strong>executive</strong>, or <strong>clone</strong> cards. If you do, remove up to 2 bad publicity.",
   "title": "Restoring Face"
 }

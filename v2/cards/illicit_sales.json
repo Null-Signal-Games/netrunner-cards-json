@@ -8,9 +8,9 @@
   "id": "illicit_sales",
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "When you score Illicit Sales, you may take 1 bad publicity. Gain 3 credits for each bad publicity that you have.",
+  "stripped_text": "When you score this agenda, you may take 1 bad publicity. Gain 3 credits for each bad publicity you have.",
   "stripped_title": "Illicit Sales",
-  "subtypes": ["expansion"],
-  "text": "When you score Illicit Sales, you may take 1 bad publicity. Gain 3[credit] for each bad publicity that you have.",
+  "subtypes": ["expansion", "liability"],
+  "text": "When you score this agenda, you may take 1 bad publicity. Gain 3[credit] for each bad publicity you have.",
   "title": "Illicit Sales"
 }

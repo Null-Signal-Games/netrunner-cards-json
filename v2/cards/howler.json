@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 0,
-  "stripped_text": "Subroutine You may install and rez a piece of bioroid ice from HQ or Archives, ignoring all costs, placing it directly behind Howler. If you do, derez that piece of ice and trash Howler after the run is completed.",
+  "stripped_text": "Subroutine You may install and rez 1 piece of bioroid ice from HQ or Archives directly inward from this ice, ignoring all costs. When this run ends, if you installed a piece of ice this way, trash this ice and derez the ice you installed.",
   "stripped_title": "Howler",
   "subtypes": ["trap"],
-  "text": "[subroutine] You may install and rez a piece of <strong>bioroid</strong> ice from HQ or Archives, ignoring all costs, placing it directly behind Howler. If you do, derez that piece of ice and trash Howler after the run is completed.",
+  "text": "[subroutine] You may install and rez 1 piece of <strong>bioroid</strong> ice from HQ or Archives directly inward from this ice, ignoring all costs. When this run ends, if you installed a piece of ice this way, trash this ice and derez the ice you installed.",
   "title": "Howler"
 }

@@ -1119,7 +1119,7 @@
     "side_code": "corp",
     "stripped_text": "For each bad publicity you have up to 4, this agenda gets -1 advancement requirement.",
     "stripped_title": "Regulatory Capture",
-    "text": "For each bad publicity you have up to 4, this agenda gets -1 advancement requirement.",
+    "text": "For each bad publicity you have up to 4, this agenda gets −1 advancement requirement.",
     "title": "Regulatory Capture",
     "type_code": "agenda",
     "uniqueness": false
@@ -1173,7 +1173,7 @@
     "faction_cost": 5,
     "flavor": "\"They just keep drilling down, no matter what...\"\n—Valentina Ferreira",
     "illustrator": "Vitalii Ostaschenko",
-    "keywords": "Illicit - Industrial",
+    "keywords": "Industrial - Liability",
     "pack_code": "ph",
     "position": 123,
     "quantity": 3,

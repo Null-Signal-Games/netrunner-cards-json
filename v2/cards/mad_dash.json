@@ -8,9 +8,9 @@
   "influence_cost": 0,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "Make a run. When this run ends, add Mad Dash to your score area as an agenda worth 1 agenda point if you stole at least 1 agenda during the run; otherwise, suffer 1 meat damage.",
+  "stripped_text": "Run any server. When that run ends, if you stole an agenda during that run, add this event to your score area as an agenda worth 1 agenda point. Otherwise, suffer 1 meat damage.",
   "stripped_title": "Mad Dash",
   "subtypes": ["run"],
-  "text": "Make a run. When this run ends, add Mad Dash to your score area as an agenda worth 1 agenda point if you stole at least 1 agenda during the run; otherwise, suffer 1 meat damage.",
+  "text": "Run any server. When that run ends, if you stole an agenda during that run, add this event to your score area as an agenda worth 1 agenda point. Otherwise, suffer 1 meat damage.",
   "title": "Mad Dash"
 }

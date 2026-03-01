@@ -157,9 +157,9 @@
     "position": 28,
     "quantity": 3,
     "side_code": "runner",
-    "stripped_text": "Make a run on R&D. If successful, you may make another run on R&D when this run ends.",
+    "stripped_text": "Run R&D. If successful, when that run ends, you may run R&D again.",
     "stripped_title": "Data Breach",
-    "text": "Make a run on R&D. If successful, you may make another run on R&D when this run ends.",
+    "text": "Run R&D. If successful, when that run ends, you may run R&D again.",
     "title": "Data Breach",
     "type_code": "event",
     "uniqueness": false

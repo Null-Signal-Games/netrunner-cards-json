@@ -267,9 +267,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 5,
-    "stripped_text": "Subroutine For the remainder of this run, each piece of ice encountered except Sensei gains \"Subroutine End the run\" after all its other subroutines.",
+    "stripped_text": "Subroutine For the remainder of this run, while the Runner is encountering another piece of ice, it gains \"Subroutine End the run.\" after its other subroutines.",
     "stripped_title": "Sensei",
-    "text": "[subroutine] For the remainder of this run, each piece of ice encountered except Sensei gains \"[subroutine] End the run\" after all its other subroutines.",
+    "text": "[subroutine] For the remainder of this run, while the Runner is encountering another piece of ice, it gains \"[subroutine] End the run.\" after its other subroutines.",
     "title": "Sensei",
     "type_code": "ice",
     "uniqueness": false

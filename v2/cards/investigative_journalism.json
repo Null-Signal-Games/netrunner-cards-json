@@ -8,8 +8,8 @@
   "influence_cost": 1,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "Install only if the Corp has at least 1 bad publicity. click,click,click,click,trash: Give the Corp 1 bad publicity.",
+  "stripped_text": "Install only if the Corp has at least 1 bad publicity. click click click click, trash: Give the Corp 1 bad publicity.",
   "stripped_title": "Investigative Journalism",
-  "text": "Install only if the Corp has at least 1 bad publicity.\n[click],[click],[click],[click],[trash]: Give the Corp 1 bad publicity.",
+  "text": "Install only if the Corp has at least 1 bad publicity.\n[click][click][click][click], [trash]<strong>:</strong> Give the Corp 1 bad publicity.",
   "title": "Investigative Journalism"
 }

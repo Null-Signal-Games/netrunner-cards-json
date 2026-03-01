@@ -8,10 +8,10 @@
   "influence_cost": 2,
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "Place 3 power counters on Rex Campaign when it is rezzed. When there are no power counters left on Rex Campaign, trash it and either remove 1 bad publicity or gain 5 credits. When your turn begins, remove 1 power counter from Rex Campaign.",
+  "stripped_text": "When you rez this asset, load 3 power counters onto it. When it is empty, trash it and either remove 1 bad publicity or gain 5 credits. When your turn begins, remove 1 hosted power counter.",
   "stripped_title": "Rex Campaign",
   "subtypes": ["advertisement"],
-  "text": "Place 3 power counters on Rex Campaign when it is rezzed. When there are no power counters left on Rex Campaign, trash it and either remove 1 bad publicity or gain 5[credit].\nWhen your turn begins, remove 1 power counter from Rex Campaign.",
+  "text": "When you rez this asset, load 3 power counters onto it. When it is empty, trash it and either remove 1 bad publicity or gain 5[credit].\nWhen your turn begins, remove 1 hosted power counter.",
   "title": "Rex Campaign",
   "trash_cost": 3
 }

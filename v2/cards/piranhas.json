@@ -11,7 +11,7 @@
   "strength": 6,
   "stripped_text": "As an additional cost to rez this ice, take 1 bad publicity or remove 1 tag. Subroutine You may draw 1 card. Subroutine Do 1 net damage. Subroutine End the run if there are more cards in HQ than in the grip.",
   "stripped_title": "Piranhas",
-  "subtypes": ["code_gate", "illicit", "ap"],
+  "subtypes": ["code_gate", "ap", "liability"],
   "text": "As an additional cost to rez this ice, take 1 bad publicity or remove 1 tag.\n[subroutine] You may draw 1 card.\n[subroutine] Do 1 net damage.\n[subroutine] End the run if there are more cards in HQ than in the grip.",
   "title": "Piranhas"
 }

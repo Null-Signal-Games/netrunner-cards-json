@@ -219,9 +219,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 2,
-    "stripped_text": "When the Runner encounters Lancelot, you may reveal up to 2 grail ice from HQ. For the remainder of this run, Lancelot gains the subroutines of the revealed ice in the order of your choice. Subroutine Trash 1 program.",
+    "stripped_text": "When the Runner encounters this ice, you may reveal up to 2 pieces of grail ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice. Subroutine Trash 1 installed program.",
     "stripped_title": "Lancelot",
-    "text": "When the Runner encounters Lancelot, you may reveal up to 2 <strong>grail</strong> ice from HQ. For the remainder of this run, Lancelot gains the subroutines of the revealed ice in the order of your choice.\n[subroutine] Trash 1 program.",
+    "text": "When the Runner encounters this ice, you may reveal up to 2 pieces of <strong>grail</strong> ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice.\n[subroutine] Trash 1 installed program.",
     "title": "Lancelot",
     "type_code": "ice",
     "uniqueness": false
@@ -343,9 +343,9 @@
     "quantity": 3,
     "side_code": "runner",
     "strength": 2,
-    "stripped_text": "Interface -> 1 credit: Break 1 code gate subroutine. 1 credit: +3 strength. Use this ability only by spending a credit from a stealth card.",
+    "stripped_text": "Interface -> 1 credit: Break 1 code gate subroutine. 1 credit: +3 strength. Spend credits only from stealth cards to use this ability.",
     "stripped_title": "Refractor",
-    "text": "Interface → <strong>1[credit]:</strong> Break 1 <strong>code gate</strong> subroutine.\n<strong>1[credit]:</strong> +3 strength. Use this ability only by spending a credit from a <strong>stealth</strong> card.",
+    "text": "Interface → <strong>1[credit]:</strong> Break 1 <strong>code gate</strong> subroutine.\n<strong>1[credit]:</strong> +3 strength. Spend credits only from <strong>stealth</strong> cards to use this ability.",
     "title": "Refractor",
     "type_code": "program",
     "uniqueness": false

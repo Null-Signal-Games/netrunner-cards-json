@@ -10,7 +10,7 @@
   "side_id": "corp",
   "stripped_text": "Play only if the Runner accessed a card during their last turn. Trash 1 installed connection resource and take 1 bad publicity.",
   "stripped_title": "Under the Bus",
-  "subtypes": ["gray_ops", "illicit"],
+  "subtypes": ["gray_ops", "liability"],
   "text": "Play only if the Runner accessed a card during their last turn.\nTrash 1 installed <strong>connection</strong> resource and take 1 bad publicity.",
   "title": "Under the Bus"
 }

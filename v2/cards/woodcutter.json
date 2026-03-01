@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 2,
-  "stripped_text": "Woodcutter can be advanced only while rezzed and gains \"Subroutine Do 1 net damage.\" for each advancement token on it.",
+  "stripped_text": "You can advance this ice if it is rezzed. It gains \"Subroutine Do 1 net damage.\" for each hosted advancement counter.",
   "stripped_title": "Woodcutter",
   "subtypes": ["sentry", "ap"],
-  "text": "Woodcutter can be advanced only while rezzed and gains \"[subroutine] Do 1 net damage.\" for each advancement token on it.",
+  "text": "You can advance this ice if it is rezzed. It gains \"[subroutine] Do 1 net damage.\" for each hosted advancement counter.",
   "title": "Woodcutter"
 }
