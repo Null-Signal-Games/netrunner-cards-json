@@ -27,6 +27,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@eslint/js": "^9",
+    "eslint": "^9",
     "@tsconfig/recommended": "^1",
     "@types/chai": "^5",
     "@types/lodash": "^4",
@@ -35,15 +36,13 @@
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "chai": "^6",
-    "eslint": "^9",
     "husky": "^9",
     "lint-staged": "^16",
     "mocha": "^11",
     "prettier": "^3",
     "prettier-plugin-sort-json": "^4",
     "ts-node": "^10",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5"
   },
   "lint-staged": {
     "{{**,.}/*.json,.*.json,*.json}": "prettier --write"
