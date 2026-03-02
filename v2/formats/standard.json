@@ -203,20 +203,20 @@
       "restriction_id": "standard_ban_list_25_08"
     },
     {
-      "active": true,
       "card_pool_id": "rotation_2025",
       "date_start": "2025-10-03",
       "id": "standard_32",
       "restriction_id": "standard_ban_list_25_10"
     },
     {
+      "active": true,
       "card_pool_id": "rotation_2025",
       "date_start": "2025-12-01",
       "id": "standard_33",
       "restriction_id": "standard_ban_list_25_12"
     },
     {
-      "card_pool_id": "rotation_2025",
+      "card_pool_id": "standard_2026_vantage_point",
       "date_start": "2026-03-13",
       "id": "standard_34",
       "restriction_id": "standard_ban_list_26_03"
