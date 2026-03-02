@@ -1,6 +1,6 @@
 import fs from "fs";
-import commandLineArgs = require('command-line-args');
-import Diff = require('text-diff');
+import commandLineArgs from 'command-line-args';
+import Diff from 'text-diff';
 
 /*
 This script turns a JSON file of card text diffs into HTML suitable for including on https://netrunnerdb.com/en/rules_text_updates
@@ -31,9 +31,9 @@ if (!options.diff_file) {
 }
 const diff_file = JSON.parse(fs.readFileSync(options.diff_file, "utf-8"));
 
-var diff = new Diff(); // options may be passed to constructor; see below
+const diff = new Diff(); // options may be passed to constructor; see below
 
-let header = `
+const header = `
 <html>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -50,7 +50,7 @@ let header = `
 <div class="container text-center">
 `;
 
-let footer = `
+const footer = `
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
@@ -70,7 +70,7 @@ diff_file.forEach((card) => {
     </div>
     `);
 
-  var textDiff = diff.main(
+  const textDiff = diff.main(
     card.previous_text.replaceAll(/<[^>]*>/g, '').replaceAll("\n", "<br />"),
     card.new_text.replaceAll(/<[^>]*>/g, '').replaceAll("\n", "<br />"));
   diff.cleanupSemantic(textDiff);
