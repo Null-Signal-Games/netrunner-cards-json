@@ -41,6 +41,7 @@
     "mocha": "^11",
     "prettier": "^3",
     "prettier-plugin-sort-json": "^4",
+    "text-diff": "^1",
     "ts-node": "^10",
     "typescript": "^5"
   },
