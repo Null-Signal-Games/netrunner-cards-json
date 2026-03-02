@@ -198,9 +198,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 1,
-    "stripped_text": "NEXT Silver gains \"Subroutine End the run.\" for each rezzed piece of NEXT ice.",
+    "stripped_text": "This ice gains \"Subroutine End the run.\" for each rezzed piece of NEXT ice.",
     "stripped_title": "NEXT Silver",
-    "text": "NEXT Silver gains \"[subroutine] End the run.\" for each rezzed piece of <strong>NEXT</strong> ice.",
+    "text": "This ice gains \"[subroutine] End the run.\" for each rezzed piece of <strong>NEXT</strong> ice.",
     "title": "NEXT Silver",
     "type_code": "ice",
     "uniqueness": false

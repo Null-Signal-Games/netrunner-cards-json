@@ -8,9 +8,9 @@
   "influence_cost": 1,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "This card is not trashed until another current is played or an agenda is scored. The Corp has 1 additional bad publicity (even if they have 0).",
+  "stripped_text": "This event is not trashed until another current is played or an agenda is scored. The Corp is considered to have 1 additional bad publicity (even if they had no bad publicity).",
   "stripped_title": "Corporate Scandal",
   "subtypes": ["current"],
-  "text": "This card is not trashed until another <strong>current</strong> is played or an agenda is scored.\nThe Corp has 1 additional bad publicity (even if they have 0).",
+  "text": "This event is not trashed until another <strong>current</strong> is played or an agenda is scored.\nThe Corp is considered to have 1 additional bad publicity <em>(even if they had no bad publicity)</em>.",
   "title": "Corporate Scandal"
 }

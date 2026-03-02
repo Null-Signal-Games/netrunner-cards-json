@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 1,
-  "stripped_text": "NEXT Silver gains \"Subroutine End the run.\" for each rezzed piece of NEXT ice.",
+  "stripped_text": "This ice gains \"Subroutine End the run.\" for each rezzed piece of NEXT ice.",
   "stripped_title": "NEXT Silver",
   "subtypes": ["barrier", "next"],
-  "text": "NEXT Silver gains \"[subroutine] End the run.\" for each rezzed piece of <strong>NEXT</strong> ice.",
+  "text": "This ice gains \"[subroutine] End the run.\" for each rezzed piece of <strong>NEXT</strong> ice.",
   "title": "NEXT Silver"
 }

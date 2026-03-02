@@ -8,8 +8,8 @@
   "influence_cost": 3,
   "is_unique": true,
   "side_id": "runner",
-  "stripped_text": "Use this hardware only by spending credits from stealth cards. Whenever you make a successful run on HQ, you may pay 1 credit to access 1 additional card when you breach HQ. Whenever you make a successful run on R&D, you may pay 2 credits to access 1 additional card when you breach R&D.",
+  "stripped_text": "Spend credits only from stealth cards to use this hardware. Whenever you make a successful run on HQ, you may pay 1 credit to access 1 additional card when you breach HQ. Whenever you make a successful run on R&D, you may pay 2 credits to access 1 additional card when you breach R&D.",
   "stripped_title": "Mu Safecracker",
-  "text": "Use this hardware only by spending credits from <strong>stealth</strong> cards.\nWhenever you make a successful run on HQ, you may pay 1[credit] to access 1 additional card when you breach HQ.\nWhenever you make a successful run on R&D, you may pay 2[credit] to access 1 additional card when you breach R&D.",
+  "text": "Spend credits only from <strong>stealth</strong> cards to use this hardware.\nWhenever you make a successful run on HQ, you may pay 1[credit] to access 1 additional card when you breach HQ.\nWhenever you make a successful run on R&D, you may pay 2[credit] to access 1 additional card when you breach R&D.",
   "title": "Mu Safecracker"
 }

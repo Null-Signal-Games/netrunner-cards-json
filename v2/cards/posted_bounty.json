@@ -8,9 +8,9 @@
   "id": "posted_bounty",
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "When you score Posted Bounty, you may forfeit it to give the Runner 1 tag and take 1 bad publicity.",
+  "stripped_text": "When you score this agenda, you may forfeit it. If you do, give the Runner 1 tag and take 1 bad publicity.",
   "stripped_title": "Posted Bounty",
-  "subtypes": ["security"],
-  "text": "When you score Posted Bounty, you may forfeit it to give the Runner 1 tag and take 1 bad publicity.",
+  "subtypes": ["security", "liability"],
+  "text": "When you score this agenda, you may forfeit it. If you do, give the Runner 1 tag and take 1 bad publicity.",
   "title": "Posted Bounty"
 }

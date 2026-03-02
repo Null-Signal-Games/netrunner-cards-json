@@ -8,9 +8,9 @@
   "influence_cost": 2,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "As an additional cost to play this event, spend click. Forfeit an agenda. If you do, give the Corp 1 bad publicity.",
+  "stripped_text": "As an additional cost to play this event, spend click. Forfeit 1 agenda. If you do, give the Corp 1 bad publicity.",
   "stripped_title": "Frame Job",
   "subtypes": ["double"],
-  "text": "As an additional cost to play this event, spend [click].\nForfeit an agenda. If you do, give the Corp 1 bad publicity.",
+  "text": "As an additional cost to play this event, spend [click].\nForfeit 1 agenda. If you do, give the Corp 1 bad publicity.",
   "title": "Frame Job"
 }

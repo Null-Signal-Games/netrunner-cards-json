@@ -72,9 +72,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 4,
-    "stripped_text": "Ashigaru gains \"Subroutine End the run.\" for each card in HQ.",
+    "stripped_text": "This ice gains \"Subroutine End the run.\" for each card in HQ.",
     "stripped_title": "Ashigaru",
-    "text": "Ashigaru gains \"[subroutine] End the run.\" for each card in HQ.",
+    "text": "This ice gains \"[subroutine] End the run.\" for each card in HQ.",
     "title": "Ashigaru",
     "type_code": "ice",
     "uniqueness": false
@@ -333,9 +333,9 @@
     "quantity": 3,
     "side_code": "runner",
     "strength": 0,
-    "stripped_text": "Interface -> 1 credit: Break any number of sentry subroutines. Use this ability only by spending a credit from a stealth card. 1 credit: +7 strength. Use this ability only by spending a credit from a stealth card.",
+    "stripped_text": "Interface -> 1 credit: Break any number of sentry subroutines. Spend credits only from stealth cards to use this ability. 1 credit: +7 strength. Spend credits only from stealth cards to use this ability.",
     "stripped_title": "Switchblade",
-    "text": "Interface → <strong>1[credit]:</strong> Break any number of <strong>sentry</strong> subroutines. Use this ability only by spending a credit from a <strong>stealth</strong> card.\n<strong>1[credit]:</strong> +7 strength. Use this ability only by spending a credit from a <strong>stealth</strong> card.",
+    "text": "Interface → <strong>1[credit]:</strong> Break any number of <strong>sentry</strong> subroutines. Spend credits only from <strong>stealth</strong> cards to use this ability.\n<strong>1[credit]:</strong> +7 strength. Spend credits only from <strong>stealth</strong> cards to use this ability.",
     "title": "Switchblade",
     "type_code": "program",
     "uniqueness": false

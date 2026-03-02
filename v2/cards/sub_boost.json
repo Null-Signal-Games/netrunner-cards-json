@@ -8,9 +8,9 @@
   "influence_cost": 0,
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "Install Sub Boost on a rezzed piece of ice as a hosted condition counter with the text \"Host ice gains barrier and 'Subroutine End the run.' after all its other subroutines.\"",
+  "stripped_text": "Host this operation on a rezzed piece of ice as a condition counter with \"Host ice gains barrier and gains 'Subroutine End the run.' after its other subroutines.\"",
   "stripped_title": "Sub Boost",
   "subtypes": ["condition"],
-  "text": "Install Sub Boost on a rezzed piece of ice as a hosted condition counter with the text \"Host ice gains <strong>barrier</strong> and '[subroutine] End the run.' after all its other subroutines.\"",
+  "text": "Host this operation on a rezzed piece of ice as a condition counter with \"Host ice gains <strong>barrier</strong> and gains '[subroutine] End the run.' after its other subroutines.\"",
   "title": "Sub Boost"
 }

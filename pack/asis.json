@@ -357,9 +357,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 4,
-    "stripped_text": "Tyrant can be advanced only while rezzed and gains \"Subroutine End the run.\" for each advancement token on it.",
+    "stripped_text": "You can advance this ice if it is rezzed. It gains \"Subroutine End the run.\" for each hosted advancement counter.",
     "stripped_title": "Tyrant",
-    "text": "Tyrant can be advanced only while rezzed and gains \"[subroutine] End the run.\" for each advancement token on it.",
+    "text": "You can advance this ice if it is rezzed. It gains \"[subroutine] End the run.\" for each hosted advancement counter.",
     "title": "Tyrant",
     "type_code": "ice",
     "uniqueness": false

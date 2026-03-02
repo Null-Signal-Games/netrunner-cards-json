@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 1,
-  "stripped_text": "When the Runner encounters Galahad, you may reveal up to 2 grail ice from HQ. For the remainder of this run, Galahad gains the subroutines of the revealed ice in the order of your choice. Subroutine End the run.",
+  "stripped_text": "When the Runner encounters this ice, you may reveal up to 2 pieces of grail ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice. Subroutine End the run.",
   "stripped_title": "Galahad",
   "subtypes": ["barrier", "grail"],
-  "text": "When the Runner encounters Galahad, you may reveal up to 2 <strong>grail</strong> ice from HQ. For the remainder of this run, Galahad gains the subroutines of the revealed ice in the order of your choice.\n[subroutine] End the run.",
+  "text": "When the Runner encounters this ice, you may reveal up to 2 pieces of <strong>grail</strong> ice in HQ. For the remainder of this run, this ice gains the subroutines of each revealed piece of ice in the order of your choice.\n[subroutine] End the run.",
   "title": "Galahad"
 }

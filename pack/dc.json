@@ -51,9 +51,9 @@
     "position": 3,
     "quantity": 3,
     "side_code": "runner",
-    "stripped_text": "+1 link Whenever the Corp scores an initiative or security agenda, force the Corp to \"Trace[1]. If unsuccessful, take 1 bad publicity.\"",
+    "stripped_text": "+1 link Whenever the Corp scores an initiative or security agenda, they must trace[1]. If unsuccessful, give them 1 bad publicity.",
     "stripped_title": "The Archivist",
-    "text": "+1[link]\nWhenever the Corp scores an <strong>initiative</strong> or <strong>security</strong> agenda, force the Corp to \"Trace[1]. If unsuccessful, take 1 bad publicity.\"",
+    "text": "+1[link]\nWhenever the Corp scores an <strong>initiative</strong> or <strong>security</strong> agenda, they must trace[1]. If unsuccessful, give them 1 bad publicity.",
     "title": "The Archivist",
     "type_code": "resource",
     "uniqueness": true
@@ -148,9 +148,9 @@
     "position": 8,
     "quantity": 3,
     "side_code": "runner",
-    "stripped_text": "Make a run. When this run ends, add Mad Dash to your score area as an agenda worth 1 agenda point if you stole at least 1 agenda during the run; otherwise, suffer 1 meat damage.",
+    "stripped_text": "Run any server. When that run ends, if you stole an agenda during that run, add this event to your score area as an agenda worth 1 agenda point. Otherwise, suffer 1 meat damage.",
     "stripped_title": "Mad Dash",
-    "text": "Make a run. When this run ends, add Mad Dash to your score area as an agenda worth 1 agenda point if you stole at least 1 agenda during the run; otherwise, suffer 1 meat damage.",
+    "text": "Run any server. When that run ends, if you stole an agenda during that run, add this event to your score area as an agenda worth 1 agenda point. Otherwise, suffer 1 meat damage.",
     "title": "Mad Dash",
     "type_code": "event",
     "uniqueness": false

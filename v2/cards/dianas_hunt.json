@@ -8,9 +8,9 @@
   "influence_cost": 4,
   "is_unique": false,
   "side_id": "runner",
-  "stripped_text": "Make a run. Whenever you encounter a piece of ice during this run, you may install a program from your grip, ignoring all costs. When this run ends, trash all programs installed using Diana's Hunt.",
+  "stripped_text": "Run any server. Whenever you encounter a piece of ice during that run, you may install 1 program from your grip, ignoring all costs. When that run ends, trash all programs installed this way.",
   "stripped_title": "Diana's Hunt",
   "subtypes": ["run"],
-  "text": "Make a run. Whenever you encounter a piece of ice during this run, you may install a program from your grip, ignoring all costs. When this run ends, trash all programs installed using Diana's Hunt.",
+  "text": "Run any server. Whenever you encounter a piece of ice during that run, you may install 1 program from your grip, ignoring all costs. When that run ends, trash all programs installed this way.",
   "title": "Diana's Hunt"
 }

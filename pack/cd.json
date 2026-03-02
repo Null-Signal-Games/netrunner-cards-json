@@ -10,9 +10,9 @@
     "position": 101,
     "quantity": 3,
     "side_code": "runner",
-    "stripped_text": "Play only if you made a successful run on a central server this turn. The Corp must pay 5 credits or take 1 bad publicity. Remove Mining Accident from the game instead of trashing it.",
+    "stripped_text": "Play only if you made a successful run on a central server this turn. Give the Corp 1 bad publicity unless they pay 5 credits. Remove this event from the game.",
     "stripped_title": "Mining Accident",
-    "text": "Play only if you made a successful run on a central server this turn.\nThe Corp must pay 5[credit] or take 1 bad publicity. Remove Mining Accident from the game instead of trashing it.",
+    "text": "Play only if you made a successful run on a central server this turn.\nGive the Corp 1 bad publicity unless they pay 5[credit].\nRemove this event from the game.",
     "title": "Mining Accident",
     "type_code": "event",
     "uniqueness": false
@@ -109,9 +109,9 @@
     "position": 106,
     "quantity": 3,
     "side_code": "runner",
-    "stripped_text": "Make a run. Whenever you encounter a piece of ice during this run, you may install a program from your grip, ignoring all costs. When this run ends, trash all programs installed using Diana's Hunt.",
+    "stripped_text": "Run any server. Whenever you encounter a piece of ice during that run, you may install 1 program from your grip, ignoring all costs. When that run ends, trash all programs installed this way.",
     "stripped_title": "Diana's Hunt",
-    "text": "Make a run. Whenever you encounter a piece of ice during this run, you may install a program from your grip, ignoring all costs. When this run ends, trash all programs installed using Diana's Hunt.",
+    "text": "Run any server. Whenever you encounter a piece of ice during that run, you may install 1 program from your grip, ignoring all costs. When that run ends, trash all programs installed this way.",
     "title": "Diana's Hunt",
     "type_code": "event",
     "uniqueness": false

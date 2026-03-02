@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 5,
-  "stripped_text": "When you rez Swarm, take 1 bad publicity. Swarm can be advanced and gains \"Subroutine Trash 1 program unless the Runner pays 3 credits.\" for each advancement token on it.",
+  "stripped_text": "When you rez this ice, take 1 bad publicity. You can advance this ice. It gains \"Subroutine Trash 1 installed program unless the Runner pays 3 credits.\" for each hosted advancement counter.",
   "stripped_title": "Swarm",
-  "subtypes": ["sentry", "destroyer", "illicit"],
-  "text": "When you rez Swarm, take 1 bad publicity.\nSwarm can be advanced and gains \"[subroutine] Trash 1 program unless the Runner pays 3[credit].\" for each advancement token on it.",
+  "subtypes": ["sentry", "destroyer", "liability"],
+  "text": "When you rez this ice, take 1 bad publicity.\nYou can advance this ice. It gains \"[subroutine] Trash 1 installed program unless the Runner pays 3[credit].\" for each hosted advancement counter.",
   "title": "Swarm"
 }

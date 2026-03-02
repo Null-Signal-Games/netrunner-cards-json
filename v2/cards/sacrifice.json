@@ -8,8 +8,8 @@
   "influence_cost": 1,
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "As an additional cost to play this operation, forfeit an agenda. Remove 1 bad publicity per agenda point that the forfeited agenda was worth. Gain 1 credit for each bad publicity removed.",
+  "stripped_text": "As an additional cost to play this operation, forfeit 1 agenda. Remove X bad publicity. X is equal to the agenda point value of the forfeited agenda. Gain 1 credit for each bad publicity removed this way.",
   "stripped_title": "Sacrifice",
-  "text": "As an additional cost to play this operation, forfeit an agenda.\nRemove 1 bad publicity per agenda point that the forfeited agenda was worth. Gain 1[credit] for each bad publicity removed.",
+  "text": "As an additional cost to play this operation, forfeit 1 agenda.\nRemove X bad publicity. X is equal to the agenda point value of the forfeited agenda. Gain 1[credit] for each bad publicity removed this way.",
   "title": "Sacrifice"
 }

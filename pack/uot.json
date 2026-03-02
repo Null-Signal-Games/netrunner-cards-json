@@ -353,9 +353,9 @@
     "quantity": 3,
     "side_code": "corp",
     "strength": 0,
-    "stripped_text": "Tour Guide gains \"Subroutine End the run.\" for each rezzed asset you have.",
+    "stripped_text": "This ice gains \"Subroutine End the run.\" for each rezzed asset.",
     "stripped_title": "Tour Guide",
-    "text": "Tour Guide gains \"[subroutine] End the run.\" for each rezzed asset you have.",
+    "text": "This ice gains \"[subroutine] End the run.\" for each rezzed asset.",
     "title": "Tour Guide",
     "type_code": "ice",
     "uniqueness": false

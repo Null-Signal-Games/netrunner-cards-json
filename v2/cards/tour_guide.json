@@ -9,9 +9,9 @@
   "is_unique": false,
   "side_id": "corp",
   "strength": 0,
-  "stripped_text": "Tour Guide gains \"Subroutine End the run.\" for each rezzed asset you have.",
+  "stripped_text": "This ice gains \"Subroutine End the run.\" for each rezzed asset.",
   "stripped_title": "Tour Guide",
   "subtypes": ["sentry"],
-  "text": "Tour Guide gains \"[subroutine] End the run.\" for each rezzed asset you have.",
+  "text": "This ice gains \"[subroutine] End the run.\" for each rezzed asset.",
   "title": "Tour Guide"
 }

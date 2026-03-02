@@ -11,6 +11,6 @@
   "stripped_text": "Whenever a gray ops or black ops operation is trashed after resolving, you may give the Corp 1 bad publicity and take 1 tag. trash: Draw 1 card for each bad publicity the Corp has.",
   "stripped_title": "Tallie Perrault",
   "subtypes": ["connection"],
-  "text": "Whenever a <strong>gray ops</strong> or <strong>black ops</strong> operation is trashed after resolving, you may give the Corp 1 bad publicity and take 1 tag.\n[trash]: Draw 1 card for each bad publicity the Corp has.",
+  "text": "Whenever a <strong>gray ops</strong> or <strong>black ops</strong> operation is trashed after resolving, you may give the Corp 1 bad publicity and take 1 tag.\n[trash]<strong>:</strong> Draw 1 card for each bad publicity the Corp has.",
   "title": "Tallie Perrault"
 }

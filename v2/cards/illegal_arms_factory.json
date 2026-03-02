@@ -8,10 +8,10 @@
   "influence_cost": 2,
   "is_unique": false,
   "side_id": "corp",
-  "stripped_text": "If the Runner trashes Illegal Arms Factory while it is installed, take 1 bad publicity. When your turn begins, gain 1 credit and draw 1 card.",
+  "stripped_text": "When your turn begins, gain 1 credit and draw 1 card. When the Runner trashes this asset (while it is rezzed), take 1 bad publicity.",
   "stripped_title": "Illegal Arms Factory",
-  "subtypes": ["facility", "illicit"],
-  "text": "If the Runner trashes Illegal Arms Factory while it is installed, take 1 bad publicity.\nWhen your turn begins, gain 1[credit] and draw 1 card.",
+  "subtypes": ["facility", "liability"],
+  "text": "When your turn begins, gain 1[credit] and draw 1 card.\nWhen the Runner trashes this asset <em>(while it is rezzed)</em>, take 1 bad publicity.",
   "title": "Illegal Arms Factory",
   "trash_cost": 6
 }
