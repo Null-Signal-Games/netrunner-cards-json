@@ -1,0 +1,9 @@
+[
+  {
+    "card_cycle_ids": ["elevation", "system_gateway"],
+    "card_set_ids": ["elevation", "system_gateway"],
+    "format_id": "core",
+    "id": "core",
+    "name": "Core"
+  }
+]
