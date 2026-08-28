@@ -41,6 +41,8 @@ jobs:
 
   build_and_push:
     name: Build docker image
+    if: (github.repository_owner == 'Null-Signal-Games' &&  (github.ref == 'refs/heads/main' || github.event_name == 'release'))
+
     needs: [format_and_lint_and_test]
     runs-on: ubuntu-latest
     steps:
