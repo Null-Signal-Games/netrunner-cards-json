@@ -1,7 +1,8 @@
-node_modules/
 .project
 *.pyc
-nbproject/
-dist
 *.tsbuildinfo
 **/.DS_Store
+coverage/
+dist
+nbproject/
+node_modules/

@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky",
     "test": "tsc && vitest run",
+    "coverage": "vitest run --coverage",
     "update-locales": "tsc && node dist/update-locales.js && node dist/update-locales-v2.js",
     "watch": "vitest"
   },
@@ -33,6 +34,7 @@
     "@types/node": "^25",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
+    "@vitest/coverage-v8": "^4.1.10",
     "eslint": "^10",
     "husky": "^9",
     "lint-staged": "^17",
