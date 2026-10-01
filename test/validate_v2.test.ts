@@ -212,6 +212,31 @@ describe('Cards', () => {
       });
     });
   });
+
+  // Accept the wordings that are already printed. Triple includes Success
+  // ("forfeit an agenda and spend") and Red Planet Couriers ("[click], [click]").
+  // Terminal uses both "end your action phase" and "your action phase ends".
+  it('priority, double, triple, and terminal cards include their rules text', () => {
+    const subtypeText: Record<string, RegExp> = {
+      priority: /Play only as your first \[click\]/,
+      double: /As an additional cost to play this (?:event|operation), spend \[click\](?!\[click\])/,
+      triple: /As an additional cost to play this (?:event|operation), (?:forfeit an agenda and )?spend \[click\](?:, )?\[click\]/,
+      terminal: /After you resolve this (?:event|operation), (?:end your action phase|your action phase ends)\./,
+    };
+
+    cards.forEach(card => {
+      const subtypes: string[] = card.subtypes ?? [];
+      const relevant = subtypes.filter(subtype => subtype in subtypeText);
+      if (relevant.length === 0) {
+        return;
+      }
+      const faceText = (card.faces ?? []).map((face: { text?: string }) => face.text ?? '').join('\n');
+      const text = [card.text ?? '', faceText].filter(part => part.length > 0).join('\n');
+      relevant.forEach(subtype => {
+        expect(text, `${card.title} (${card.id}) is ${subtype} but its text does not include the expected rules line`).to.match(subtypeText[subtype]);
+      });
+    });
+  });
 });
 
 describe('Printings', () => {

@@ -11,6 +11,6 @@
   "stripped_text": "Play only as your first click. Gain click. Run any server.",
   "stripped_title": "Early Bird",
   "subtypes": ["priority", "run"],
-  "text": "Play only as your first click.\nGain [click]. Run any server.",
+  "text": "Play only as your first [click].\nGain [click]. Run any server.",
   "title": "Early Bird"
 }

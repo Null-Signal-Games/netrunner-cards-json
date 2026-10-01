@@ -639,7 +639,7 @@
     "side_code": "runner",
     "stripped_text": "Play only as your first click. Gain click. Run any server.",
     "stripped_title": "Early Bird",
-    "text": "Play only as your first click.\nGain [click]. Run any server.",
+    "text": "Play only as your first [click].\nGain [click]. Run any server.",
     "title": "Early Bird",
     "type_code": "event",
     "uniqueness": false
