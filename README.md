@@ -1,4 +1,4 @@
-Netrunner cards JSON data [![Build status](https://travis-ci.org/Alsciende/netrunner-cards-json.svg?branch=master)](https://travis-ci.org/Alsciende/netrunner-cards-json)
+Netrunner cards JSON data [![Build status](https://github.com/Null-Signal-Games/netrunner-cards-json/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Null-Signal-Games/netrunner-cards-json/actions/workflows/ci.yml)
 =========
 
 The goal of this repository is to store [NetrunnerDB](http://netrunnerdb.com) card data in a format that can be easily updated by multiple people and their changes reviewed.
@@ -13,17 +13,28 @@ npm run test
 Additionally, the repository supports `npm run format` to run the Prettier code
 formatter and `npm run lint` to run JSON and code style issues.
 
-## Unstable Changes
+## Contributing
 
-Work has begun on a new version of NetrunnerDB and we have learned a lot about the data and formats we need.
+Fork the repository and branch from `main`. Before opening a pull request, install dependencies and run:
 
-The new changes live in the v2 folder.  New changes are coming to the files in
-this repo and this section lists data that is not yet stable.  Use at your own
-risk because we reserve the right to change our minds suddenly.  :)
+```
+npm install
+npm run format-check
+npm run lint
+npm run test
+```
 
-* v2/set_types.json - categorization for sets (nee packs).
+`npm run format` rewrites JSON with Prettier. Pull request CI runs those checks plus `npm run build`.
 
-## Description of properties in schemas
+## v2 data
+
+Current card data lives in the `v2` folder: cards, printings, formats, restrictions, and translations. JSON Schemas for those files are in `schema/v2/`.
+
+`v2/card_set_types.json` categorizes sets (formerly packs).
+
+The property lists below describe the v1 files at the repository root (`cycles.json`, `packs.json`, and `pack/`).
+
+## Description of properties in v1 schemas
 
 Required properties are in **bold**.
 
@@ -53,7 +64,7 @@ Required properties are in **bold**.
 * **code** - 5 digit unique card identifier. When assigning a code for a new card, build it from two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card). Once a code has been assigned, it cannot be changed, and some codes (notably from the Revised Core Set) do not adhere to this scheme. Therefore, you should always treat this as an opaque identifier.  
 Examples: `"01048"` for Sacrificial Construct (48th card in cycle) from Core Set (1st cycle), `"10100"` for The Price of Freedom (100th card in cycle) from Mumbad (10th cycle).
 * cost - Play/rez cost of the card. Relevant for all cards except identities and agendas. May be `null` - this value is used when the card has a special, possibly variable, cost. Examples: `5` for Hedge Fund, `3` for Desperado, `null` for Psychographics.
-* **faction_code** - Faction this cards belongs to. Possible values: `"adam"`, `"anarch"`,
+* **faction_code** - Faction this card belongs to. Possible values: `"adam"`, `"anarch"`,
 `"apex"`, `"criminal"`, `"shaper"`, `"sunny-lebeau"`, `"neutral-runner"`, `"haas-bioroid"`, `"jinteki"`, `"nbn"`, `"weyland-consortium"`, `"neutral-corp"` 
 * faction_cost - Influence cost of this card. Relevant for all cards except identities. Examples: `0` for Sure Gamble, `5` for Escher. 
 * flavor - Flavor text of the card. May be empty.
@@ -90,7 +101,7 @@ Full description of (very simple) JSON format can be found [here](http://www.jso
 
 When symbols outside the regular [ASCII range](https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart) are needed, UTF-8 symbols come in play. These can be escaped using `\u<4 letter hexcode>`, such as `\u0101` (ā from *Pālanā Foods*), but there is no obligation. UTF-8 characters can be present in the values.
 
-To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexcode represents), you can use a UTF-8 converter, such as [this online tool](http://www.ltg.ed.ac.uk/~richard/utf-8.cgi).
+To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexcode represents), you can use a UTF-8 converter.
 
 #### Quotes and breaking text into multiple lines
 
@@ -123,4 +134,4 @@ These can be used in a card's `text` section.
 
 The `text` and `flavor` properties of a card may use custom tags. These are:
 
-* Card with errata use the `<errata>` tag, e.g. `<errata>Errata from FAQ 3.0.1</errata>` for Wireless Net Pavillion.
+* Card with errata use the `<errata>` tag, e.g. `<errata>Errata from FAQ 3.0.1</errata>` for Wireless Net Pavilion.
