@@ -636,7 +636,7 @@
     "side_code": "corp",
     "stripped_text": "Interrupt -> When this agenda would be added to the Runner's score area from anywhere except Archives, instead it is added to their score area with 4 hosted agenda counters. While this agenda is in the Runner's score area with 1 or more hosted agenda counters, it is worth 0 agenda points and gains \"When the Runner's turn begins, remove 1 hosted agenda counter.\"",
     "stripped_title": "Project Vacheron",
-    "text": "[interrupt] → When this agenda would be added to the Runnerʼs score area from anywhere except Archives, instead it is added to their score area with 4 hosted agenda counters.\nWhile this agenda is in the Runnerʼs score area with 1 or more hosted agenda counters, it is worth 0 agenda points and gains “When the Runnerʼs turn begins, remove 1 hosted agenda counter.“",
+    "text": "[interrupt] → When this agenda would be added to the Runnerʼs score area from anywhere except Archives, instead it is added to their score area with 4 hosted agenda counters.\nWhile this agenda is in the Runnerʼs score area with 1 or more hosted agenda counters, it is worth 0 agenda points and gains \"When the Runnerʼs turn begins, remove 1 hosted agenda counter.\"",
     "title": "Project Vacheron",
     "type_code": "agenda",
     "uniqueness": false
@@ -1208,7 +1208,7 @@
     "strength": 4,
     "stripped_text": "Subroutine Trace[4]. If successful, trash 1 installed program. Subroutine Trace[3]. If successful, trash 1 installed piece of hardware. While this ice is protecting HQ, it gains \"Subroutine Trace[3]. If successful, end the run.\" after its other subroutines.",
     "stripped_title": "Winchester",
-    "text": "[subroutine] Trace[4]. If successful, trash 1 installed program.\n[subroutine] Trace[3]. If successful, trash 1 installed piece of hardware.\nWhile this ice is protecting HQ, it gains “[subroutine] Trace[3]. If successful, end the run.” after its other subroutines.",
+    "text": "[subroutine] Trace[4]. If successful, trash 1 installed program.\n[subroutine] Trace[3]. If successful, trash 1 installed piece of hardware.\nWhile this ice is protecting HQ, it gains \"[subroutine] Trace[3]. If successful, end the run.\" after its other subroutines.",
     "title": "Winchester",
     "type_code": "ice",
     "uniqueness": false

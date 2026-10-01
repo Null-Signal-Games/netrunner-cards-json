@@ -12,6 +12,6 @@
   "stripped_text": "Subroutine Trace[4]. If successful, trash 1 installed program. Subroutine Trace[3]. If successful, trash 1 installed piece of hardware. While this ice is protecting HQ, it gains \"Subroutine Trace[3]. If successful, end the run.\" after its other subroutines.",
   "stripped_title": "Winchester",
   "subtypes": ["sentry", "destroyer", "tracer"],
-  "text": "[subroutine] Trace[4]. If successful, trash 1 installed program.\n[subroutine] Trace[3]. If successful, trash 1 installed piece of hardware.\nWhile this ice is protecting HQ, it gains “[subroutine] Trace[3]. If successful, end the run.” after its other subroutines.",
+  "text": "[subroutine] Trace[4]. If successful, trash 1 installed program.\n[subroutine] Trace[3]. If successful, trash 1 installed piece of hardware.\nWhile this ice is protecting HQ, it gains \"[subroutine] Trace[3]. If successful, end the run.\" after its other subroutines.",
   "title": "Winchester"
 }
