@@ -2021,6 +2021,18 @@
   },
   {
     "cards": {
+      "30006": { "deck_limit": 0 },
+      "30040": { "deck_limit": 0 },
+      "30067": { "deck_limit": 0 },
+      "35045": { "deck_limit": 0 },
+      "36066": { "deck_limit": 0 }
+    },
+    "code": "startup-balance-update-26-09-for-classic-only",
+    "date_start": "2026-09-21",
+    "name": "Startup Balance Update 26.09 (ignore active date)"
+  },
+  {
+    "cards": {
       "02080": { "deck_limit": 0 },
       "20124": { "deck_limit": 0 },
       "26016": { "deck_limit": 0 },
