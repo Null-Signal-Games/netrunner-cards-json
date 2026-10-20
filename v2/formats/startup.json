@@ -52,7 +52,6 @@
       "restriction_id": "startup_balance_update_25_11"
     },
     {
-      "active": true,
       "card_pool_id": "startup_vantage_point",
       "date_start": "2026-03-02",
       "id": "startup_9",
@@ -63,6 +62,13 @@
       "date_start": "2026-05-01",
       "id": "startup_10",
       "restriction_id": "startup_balance_update_26_05"
+    },
+    {
+      "active": true,
+      "card_pool_id": "startup_vantage_point",
+      "date_start": "2026-09-21",
+      "id": "startup_11",
+      "restriction_id": "startup_balance_update_26_09"
     }
   ]
 }
