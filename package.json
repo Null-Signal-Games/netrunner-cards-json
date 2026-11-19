@@ -24,17 +24,17 @@
     "command-line-args": "^6",
     "lodash": "^4",
     "prettier": "^3",
-    "sync-fetch": "0.6"
+    "sync-fetch": "0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@eslint/js": "^10",
     "@tsconfig/recommended": "^1",
     "@types/lodash": "^4",
-    "@types/node": "^25",
+    "@types/node": "^26",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/coverage-v8": "^5",
     "eslint": "^10",
     "husky": "^9",
     "lint-staged": "^17",
@@ -42,7 +42,7 @@
     "prettier-plugin-sort-json": "^4",
     "text-diff": "^1",
     "typescript": "^6",
-    "vitest": "^4.1.6"
+    "vitest": "^5"
   },
   "lint-staged": {
     "{{**,.}/*.json,.*.json,*.json}": "prettier --write"
