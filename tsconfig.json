@@ -13,7 +13,6 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "ESNext",
-    "typeRoots": ["node_modules/@types", "src/types"],
     "types": ["node"]
   },
   "extends": "@tsconfig/recommended/tsconfig.json",

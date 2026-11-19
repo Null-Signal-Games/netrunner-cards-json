@@ -6,7 +6,7 @@ export default defineConfig({
 			provider: 'v8',
 			reporter: ['text', 'html'],
 			include: ['dist/**/*.js'],
-			exclude: ['dist/**/*.test.js'],
-		},
-	},
+			exclude: ['dist/**/*.test.js']
+		}
+	}
 });

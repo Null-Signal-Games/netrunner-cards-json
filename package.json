@@ -8,9 +8,10 @@
   "scripts": {
     "build": "tsc",
     "translation-summary": "tsc && node dist/translation-summary.js",
-    "format": "prettier --no-color --write '{{**,.}/*.json,.*.json,*.json}'",
-    "format-check": "prettier --no-color --check '{{**,.}/*.json,.*.json,*.json}'",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "oxfmt && prettier --no-color --write '{{**,.}/*.json,.*.json,*.json}'",
+    "format-check": "oxfmt --check && prettier --no-color --check '{{**,.}/*.json,.*.json,*.json}'",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "prepare": "husky",
     "test": "tsc && vitest run",
     "coverage": "vitest run --coverage",
@@ -27,24 +28,25 @@
     "sync-fetch": "0.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@eslint/js": "^10",
     "@tsconfig/recommended": "^1",
     "@types/lodash": "^4",
     "@types/node": "^26",
-    "@typescript-eslint/eslint-plugin": "^8",
-    "@typescript-eslint/parser": "^8",
     "@vitest/coverage-v8": "^5",
-    "eslint": "^10",
     "husky": "^9",
     "lint-staged": "^17",
+    "oxfmt": "^0.79.0",
+    "oxlint": "^1.94.0",
     "prettier": "^3",
     "prettier-plugin-sort-json": "^4",
     "text-diff": "^1",
-    "typescript": "^6",
+    "typescript": "^7.0.2",
     "vitest": "^5"
   },
   "lint-staged": {
+    "*.{cjs,cts,js,mjs,mts,ts}": [
+      "oxfmt --no-error-on-unmatched-pattern",
+      "oxlint --fix"
+    ],
     "{{**,.}/*.json,.*.json,*.json}": "prettier --write"
   },
   "prettier": {
