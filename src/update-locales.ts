@@ -1,9 +1,4 @@
-import {
-	readFileSync,
-	mkdirSync,
-	readdirSync,
-	writeFileSync,
-} from 'fs';
+import { readFileSync, mkdirSync, readdirSync, writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 import lodash from 'lodash';
 const { pick, union, keyBy, sortBy } = lodash;
@@ -20,13 +15,13 @@ function stripProps(json: Record<string, any>[], props: string[]) {
 function loadThings(root: string, code?: string) {
 	const result: Record<string, any> = {};
 	for (const thing of things) {
-		const locale = code ? `.${code}` : "";
+		const locale = code ? `.${code}` : '';
 		const file = `${thing}${locale}.json`;
 		const filepath = join(root, file);
 		console.log(filepath);
 		try {
 			const json = JSON.parse(readFileSync(filepath, 'utf-8'));
-			result[file] = stripProps(json, ["code", "name"]);
+			result[file] = stripProps(json, ['code', 'name']);
 		} catch (e) {
 			console.error(`Error loading ${filepath}: ${e}`);
 		}
@@ -45,7 +40,7 @@ function loadCards(root: string) {
 	const files = readdirSync(localeRoot);
 	for (const file of files) {
 		const filepath = join(localeRoot, file);
-		const json = JSON.parse(readFileSync(filepath, 'utf-8'))
+		const json = JSON.parse(readFileSync(filepath, 'utf-8'));
 		result[file] = stripProps(json, ['code', 'flavor', 'keywords', 'text', 'title']);
 	}
 	return result;
@@ -57,7 +52,7 @@ function mergeData(defaultLocale: Record<string, any>, locale: Record<string, an
 		const targetFile = file.replace(/^(\w+).json$/, `$1.${code}.json`);
 		const newFile = {
 			...keyBy(defaultLocale[file] || {}, 'code'),
-			...keyBy(locale[file] || {}, 'code'),
+			...keyBy(locale[file] || {}, 'code')
 		};
 		result[targetFile] = sortBy(Object.values(newFile), 'code');
 	}
@@ -84,13 +79,13 @@ for (const code of codes) {
 
 	for (const file of Object.keys(mergedThings)) {
 		const target = join(localeRoot, file);
-		writeFileSync(target, JSON.stringify(mergedThings[file], null, 4) + "\n");
+		writeFileSync(target, JSON.stringify(mergedThings[file], null, 4) + '\n');
 		console.log(`Written ${target}`);
 	}
 
 	for (const file of Object.keys(mergedCards)) {
 		const target = join(localeRoot, 'pack', file);
-		writeFileSync(target, JSON.stringify(mergedCards[file], null, 4) + "\n");
+		writeFileSync(target, JSON.stringify(mergedCards[file], null, 4) + '\n');
 		console.log(`Written ${target}`);
 	}
 }

@@ -10,8 +10,7 @@ npm install
 npm run test
 ```
 
-Additionally, the repository supports `npm run format` to run the Prettier code
-formatter and `npm run lint` to run JSON and code style issues.
+Additionally, the repository supports `npm run format` to format TypeScript/JavaScript with Oxfmt and JSON with Prettier, and `npm run lint` to check code issues with Oxlint.
 
 ## Unstable Changes
 
